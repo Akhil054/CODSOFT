@@ -1,0 +1,39 @@
+{
+    "intents": 
+    [
+        {"tag": "greetings", 
+         "patterns" : ["hello","hi","good day","Greetings","whats'up ?","how it is going"],
+         "responses":["Hello !", "Hey", "What I can do for you"]
+        },
+
+        {"tag": "goodbye", 
+         "patterns" : ["cya","see you later ","GoodBye","I am Leaving ","See you next time","bye"],
+         "responses":["Have a nice day ", "See yea ", "see you next time "]
+        },
+
+        {"tag": "age", 
+         "patterns" : ["how old ","What is your age","how old are you ","age"],
+         "responses":["My owner is 21 years old !", "21 Years"]
+        },
+
+        {"tag": "name ", 
+         "patterns" : ["What's ur name","Whta should I Call you ","What is ur good name ","who are you ","Can you tell me ur name"],
+         "responses":["You can call me oreo", "I'm Oreo ", "I'm Oreo Assiant of AK"]
+        },
+ 
+        {"tag": "Shop", 
+         "patterns" : ["Id like to buy something","What things do u have","What do you recommend"],
+         "responses":["Oreo has very of brands", "U can buy the cloths , accessories , werables"]
+        },
+
+        {"tag": "hours", 
+         "patterns" : ["When are you open","Hours of operation"],
+         "responses":["24/7"]
+        },
+
+        {"tag": "stocks", 
+         "patterns" : ["What stocks do I own","How amny shares I have?","Which company having more profit"],
+         "responses":[ "you own following shares : AWS , LIC , Adani Stocks , Reliance , Apple"]
+        },
+    ]
+}
